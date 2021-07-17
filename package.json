@@ -6,7 +6,8 @@
     "dev:watch": "next-remote-watch ./posts",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "mdx-bundler": "5.1.0",
